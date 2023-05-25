@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #172f53;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -107,7 +107,8 @@ p {
 }
 
 .project-desciption {
-  padding: 120px 60px;
+  font-size: 40px;
+  text-align: center;
 }
 
 .logo {
@@ -183,7 +184,8 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 1.2;
+    padding: 20px;
   }
 
   h2 {
